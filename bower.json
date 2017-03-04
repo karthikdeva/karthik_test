@@ -1,0 +1,75 @@
+{
+  "name": "dhan-fe",
+  "homepage": "https://github.com/anuragphadke/magic.ai-fe",
+  "authors": [
+    "designersingh <tajinderpalsohi@gmail.com>"
+  ],
+  "description": "Front end for Dhan.com",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/dynamic/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angucomplete-alt": "^2.4.2",
+    "angular": "^1.5.8",
+    "angular-touch": "~1.5.3",
+    "angular-sanitize": "~1.5.3",
+    "angular-animate": "^1.5.8",
+    "angular-annotorious": "^1.0.7",
+    "angular-colorbox": "^1.1.5",
+    "angular-cookies": "^1.5.8",
+    "angular-ez-plus": "^1.2.0",
+    "angular-mocks": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-bootstrap": "2.3.0",
+    "angular-selectize2": "https://github.com/DmitrySkripkin/angular-selectize.git#59ae39cd26fbe3670b05040e14e162036f689d7b",
+    "angular-strap": "^2.3.6",
+    "annotorious-bower": "^0.6.4",
+    "bootstrap": "^3.3.7",
+    "ez-plus": "^1.2.0",
+    "jquery-colorbox": "^1.6.4",
+    "fancybox": "^2.1.5",
+    "font-awesome": "^4.6.3",
+    "angular-validation": "^1.4.2",
+    "d3": "^3.5.0",
+    "angular-local-storage": "^0.5.0",
+    "radial-progress-chart": "^0.0.3",
+    "ng-file-upload": "^12.2.9",
+    "highcharts": "^5.0.0",
+    "ng-lodash": "~0.5.0",
+    "angular-messages": "~1.5.3",
+    "ng-google-signin": "^0.1.0",
+    "angular-moment": "^0.10.3",
+    "moment-timezone": "^0.5.6",
+    "angular-lzw": "*",
+    "bower-ui-grid": "https://github.com/DmitrySkripkin/bower-ui-grid.git#306274fb599dbe896c588334d50cbb6380e5a2da",
+
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    },
+    "angular-validation": {
+      "main": [
+        "dist/angular-validation.min.js",
+        "dist/angular-validation-rule.min.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "dhan-fe",
+  "homepage": "https://github.com/anuragphadke/magic.ai-fe",
+  "authors": [
+    "designersingh <tajinderpalsohi@gmail.com>"
+  ],
+  "description": "Front end for Dhan.com",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/dynamic/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angucomplete-alt": "^2.4.2",
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-annotorious": "^1.0.7",
+    "angular-colorbox": "^1.1.5",
+    "angular-cookies": "^1.5.8",
+    "angular-ez-plus": "^1.2.0",
+    "angular-mocks": "^1.5.8",
+    "anguupload": "^12.2.9",
+    "highcharts": "^5.0.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    },
+    "angular-validation": {
+      "main": [
+        "dist/angular-validation.min.js",
+        "dist/angular-validation-rule.min.js"
+      ]
+    }
+  }
+}

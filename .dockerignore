@@ -1,0 +1,6 @@
+.git
+
+# Since we currently aren't doing any dep generation, exclude these big directories.
+node_modules
+bower_components
+
